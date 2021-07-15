@@ -23,3 +23,5 @@ memxct: $(OBJECTS)
 
 clean:
 	rm -f $(TARGETS) src/*.o src/*.o.* *.txt *.bin core
+install:
+	cp memxct $(PREFIX)/.
